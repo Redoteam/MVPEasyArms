@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
-group = 'com.yl.core'
+group='com.github.Redoteam'
 android {
     compileSdkVersion rootProject.ext.android['compileSdkVersion']
     buildToolsVersion rootProject.ext.android['buildToolsVersion']
@@ -30,7 +30,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     api rootProject.ext.dependencies["appcompat-v7"]
     api rootProject.ext.dependencies["support-v4"]
-    api rootProject.ext.dependencies["constraint-layout"]
     api rootProject.ext.dependencies["retrofit"]
     api rootProject.ext.dependencies["okhttp-urlconnection"]
     api rootProject.ext.dependencies["autolayout"]

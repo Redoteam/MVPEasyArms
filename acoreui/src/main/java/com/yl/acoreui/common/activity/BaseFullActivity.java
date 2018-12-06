@@ -222,7 +222,7 @@ public abstract class BaseFullActivity<P extends IPresenter> extends AppCompatAc
     @Override
     public Context requireContext()
     {
-        return this;
+        return getActivity();
     }
 
     @Override
