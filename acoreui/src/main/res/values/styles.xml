@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTitleMenu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLength">4</item>
+        <item name="android:minWidth">@dimen/title_height</item>
+        <item name="android:padding">@dimen/dp_10</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/theme_color</item>
+        <item name="android:textSize">@dimen/text_m</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="BadgeButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#cc333333</item>
+        <item name="btnBadgeHeight">14dp</item>
+        <item name="btnBadgeColor">@color/colorAccent</item>
+    </style>
+
+    <style name="BadgeButton.GridItem">
+        <item name="android:layout_marginRight">1px</item>
+        <item name="android:layout_marginBottom">1px</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/badge_grid</item>
+        <!-- <item name="layout_columnWeight">1</item>-->
+        <item name="btnBadgeVisible">false</item>
+    </style>
+
+    <style name="BadgeButton.TabItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <!--<item name="android:background">@drawable/badge_grid</item>-->
+        <item name="android:textColor">@color/tab</item>
+        <item name="btnBadgeVisible">false</item>
+    </style>
+</resources>

@@ -1,0 +1,98 @@
+ext {
+
+    android = [
+            "buildToolsVersion": "28.0.3",
+            "compileSdkVersion": 28,
+            "minSdkVersion"    : 16,
+            "targetSdkVersion" : 28,
+            "versionCode"      : 1,
+            "versionName"      : "1.0.1",
+            "phone-versionCode": 1,
+            "phone-versionName": "1.0.1"
+    ]
+
+    version = [
+            androidSupportSdkVersion: "28.0.0",
+            constraintLayout        : "1.1.3",
+            retrofitSdkVersion      : "2.4.0",
+            glideSdkVersion         : "4.8.0",
+            butterknifeSdkVersion   : "8.8.1",
+            rxlifecycleSdkVersion   : "1.0",
+            rxlifecycle2SdkVersion  : "2.2.2",
+            espressoSdkVersion      : "3.0.1",
+            canarySdkVersion        : "1.5.4",
+            gsyVideoVersion         : "6.0.1",
+            canarySdkVersion        : "1.5.4",
+            RxToolVersion           : "v2.2.7"
+    ]
+
+    dependencies = [
+            "support-v4"              : "com.android.support:support-v4:${version.androidSupportSdkVersion}",
+            "appcompat-v7"            : "com.android.support:appcompat-v7:${version.androidSupportSdkVersion}",
+            "constraint-layout"       : "com.android.support.constraint:constraint-layout:${version.constraintLayout}",
+            "recyclerview-v7"         : "com.android.support:recyclerview-v7:${version["androidSupportSdkVersion"]}",
+            "design"                  : "com.android.support:design:${version["androidSupportSdkVersion"]}",
+            "gridlayout-v7"           : "com.android.support:gridlayout-v7:${version["androidSupportSdkVersion"]}",
+            //network
+            "retrofit"                : "com.squareup.retrofit2:retrofit:${version["retrofitSdkVersion"]}",
+            "retrofit-converter-gson" : "com.squareup.retrofit2:converter-gson:${version["retrofitSdkVersion"]}",
+            "retrofit-adapter-rxjava" : "com.squareup.retrofit2:adapter-rxjava:${version["retrofitSdkVersion"]}",
+            "retrofit-adapter-rxjava2": "com.squareup.retrofit2:adapter-rxjava2:${version["retrofitSdkVersion"]}",
+            "okhttp3"                 : "com.squareup.okhttp3:okhttp:3.10.0",
+            "okhttp-urlconnection"    : "com.squareup.okhttp:okhttp-urlconnection:2.0.0",
+            "glide"                   : "com.github.bumptech.glide:glide:${version["glideSdkVersion"]}",
+            "glide-compiler"          : "com.github.bumptech.glide:compiler:${version["glideSdkVersion"]}",
+            "glide-loader-okhttp3"    : "com.github.bumptech.glide:okhttp3-integration:${version["glideSdkVersion"]}",
+            "persistent_cookiejar"    : 'com.github.franmontiel:PersistentCookieJar:v1.0.1',
+            "picasso"                 : "com.squareup.picasso:picasso:2.5.2",
+            "zchu_rxcache"            : "com.zchu:rxcache:2.3.1",
+            "rxcache2"                : "com.github.VictorAlbertos.RxCache:runtime:1.8.3-2.x",
+            "rxlifecycle2"            : "com.trello.rxlifecycle2:rxlifecycle:${version["rxlifecycle2SdkVersion"]}",
+            "rxlifecycle2-android"    : "com.trello.rxlifecycle2:rxlifecycle-android:${version["rxlifecycle2SdkVersion"]}",
+            "rxlifecycle2-components" : "com.trello.rxlifecycle2:rxlifecycle-components:${version["rxlifecycle2SdkVersion"]}",
+
+            //view
+            "autolayout"              : "com.zhy:autolayout:1.4.5",
+            "butterknife"             : "com.jakewharton:butterknife:${version["butterknifeSdkVersion"]}",
+            "butterknife-compiler"    : "com.jakewharton:butterknife-compiler:${version["butterknifeSdkVersion"]}",
+            "base-rvadapter"          : "com.zhy:base-rvadapter:3.0.3",
+            "zloading"                : "com.zyao89:zloading:1.1.2",
+            "smartRefresh-layout"     : "com.scwang.smartrefresh:SmartRefreshLayout:1.0.5",
+            "timber"                  : "com.jakewharton.timber:timber:4.7.0",
+
+            "rxcache-jolyglot-gson"   : "com.github.VictorAlbertos.Jolyglot:gson:0.0.4",
+
+            //rx2
+            "rxandroid2"              : "io.reactivex.rxjava2:rxandroid:2.1.0",
+            "rxjava2"                 : "io.reactivex.rxjava2:rxjava:2.2.3",
+
+            //video
+            "gsy-video-player-java"   : "com.shuyu:gsyVideoPlayer-java:${version["gsyVideoVersion"]}",
+            "gsy-video-player-ex_so"  : "com.shuyu:gsyVideoPlayer-ex_so:${version["gsyVideoVersion"]}",
+            "gsy-video-player-exo2"   : "com.shuyu:GSYVideoPlayer-exo2:${version["gsyVideoVersion"]}",
+
+
+            "canary-debug"            : "com.squareup.leakcanary:leakcanary-android:${version["canarySdkVersion"]}",
+            "canary-release"          : "com.squareup.leakcanary:leakcanary-android-no-op:${version["canarySdkVersion"]}",
+            "canary-fragment-debug"   : "com.squareup.leakcanary:leakcanary-support-fragment:1.6.1",
+            "customactivityoncrash"   : "cat.ereza:customactivityoncrash:2.2.0",
+
+            "lombok"                  : "org.projectlombok:lombok:1.18.2",
+            "app-joint-core"          : "io.github.prototypez:app-joint-core:1.5",
+
+            //基础工具库
+            "RxKit"                   : "com.github.vondear.RxTool:RxKit:${version["RxToolVersion"]}",
+
+            //UI库
+            "RxUI"                    : "com.github.vondear.RxTool:RxUI:${version["RxToolVersion"]}",
+
+            //相机库
+            "RxCamera"                : "com.github.vondear.RxTool:RxCamera:${version["RxToolVersion"]}",
+
+            //功能库（Zxing扫描与生成二维码条形码 支付宝 微信）
+            "RxFeature"               : "com.github.vondear.RxTool:RxFeature:${version["RxToolVersion"]}",
+
+            //ArcGis For Android工具库（API：100.1以上版本）
+            "RxArcGisKit"             : "com.github.vondear.RxTool:RxArcGisKit:${version["RxToolVersion"]}"
+    ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="text_dark_gray">#333333</color>
+    <color name="theme_color">#2E85FB</color>
+    <color name="devide_line">#e7e7e7</color>
+    <color name="shadow">#88000000</color>
+    <color name="white">#FFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="default_clickable_color">#cccccc</color>
+    <color name="praise_item_default">#333333</color>
+    <color name="praise_item_selector_default">#cccccc</color>
+    <color name="name_selector_color">#cccccc</color>
+    <color name="color_8290AF">#8290AF</color>
+    <color name="color_232323">#232323</color>
+    <color name="im_font_color_text_hint">#abb1b6</color>
+    <color name="color_text_white">#F8FcFd</color>
+    <color name="blue">#0DAFFA</color>
+    <color name="red_D2311F">#940d11</color>
+    <color name="maskPressed">#33888888</color>
+    <color name="maskPressed2">#22808080</color>
+    <color name="class_search_hint">#C4C4C4</color>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/top_tool_bar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="57dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/toolbar_iv_back"
+        android:layout_width="@dimen/title_height"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:src="@mipmap/app_back" />
+
+    <TextView
+        android:id="@+id/toolbar_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="3dp"
+        android:singleLine="true"
+        android:textColor="@color/text_dark_gray"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="TITLE" />
+
+    <ImageView
+        android:id="@+id/toolbar_iv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_alignParentRight="true"
+        android:padding="16dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/toolbar_tv_menu"
+        style="@style/AppTitleMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:maxLength="4"
+        android:minWidth="@dimen/title_height"
+        android:padding="@dimen/dp_10"
+        android:singleLine="true"
+        android:textColor="@color/theme_color"
+        android:textSize="@dimen/text_m"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/devide_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/devide_line"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_title">26px</dimen>
+    <dimen name="text_content">22px</dimen>
+    <dimen name="px_8">8px</dimen>
+    <dimen name="px_10">10px</dimen>
+    <dimen name="px_12">12px</dimen>
+    <dimen name="px_14">14px</dimen>
+    <dimen name="px_16">16px</dimen>
+    <dimen name="px_18">18px</dimen>
+    <dimen name="px_20">20px</dimen>
+    <dimen name="px_24">24px</dimen>
+    <dimen name="px_26">26px</dimen>
+    <dimen name="px_28">28px</dimen>
+    <dimen name="px_30">30px</dimen>
+
+    <dimen name="title_min_height">20dp</dimen>
+    <dimen name="title_height">56dp</dimen>
+    <dimen name="app_title_height">56dp</dimen>
+
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+
+    <dimen name="text_xxs">10sp</dimen>
+    <dimen name="text_xs">12sp</dimen>
+    <dimen name="text_s">14sp</dimen>
+    <dimen name="text_m">16sp</dimen>
+    <dimen name="text_l">18sp</dimen>
+    <dimen name="text_xl">20sp</dimen>
+    <dimen name="text_xxl">24sp</dimen>
+    <dimen name="statusbar_view_height">25dp</dimen>
+</resources>

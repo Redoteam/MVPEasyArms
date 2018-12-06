@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RatioImageView">
+        <attr name="height_width" format="float" />
+    </declare-styleable>
+    <declare-styleable name="YLTextViewGroup">
+        <attr name="yl_text_left" format="string" />
+        <attr name="text_right" format="string" />
+        <attr name="text_color_left" format="color" />
+        <attr name="text_color_right" format="color" />
+        <attr name="text_right_single_line" format="boolean" />
+        <attr name="img_left" format="reference" />
+        <attr name="arrow_show" format="boolean" />
+        <attr name="btn_show" format="boolean" />
+        <attr name="btn_switch" format="boolean" />
+        <attr name="required" format="boolean" />
+        <attr name="text_right_gravity">
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ClearEditViewSingle">
+        <attr name="s_text_size" format="dimension" />
+        <attr name="s_text_color" format="color" />
+        <attr name="s_hint" format="string" />
+        <attr name="s_max_length" format="integer" />
+        <attr name="s_focus_icon" format="reference" />
+        <attr name="s_blur_icon" format="reference" />
+        <attr name="s_focus_bg" format="reference" />
+        <attr name="s_blur_bg" format="reference" />
+        <attr name="s_input_type">
+            <enum name="text" value="1" />
+            <enum name="number" value="2" />
+            <enum name="password" value="128" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="buttonM">
+        <attr name="backColor" />
+        <attr name="backColorPress" />
+        <attr name="backGroundImage" />
+        <attr name="backGroundImagePress" />
+        <attr name="textColor" />
+        <attr name="textColorPress" />
+        <attr name="fillet" format="boolean" />
+        <attr name="radius" format="float" />
+        <attr name="shape">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="line" value="2" />
+            <enum name="ring" value="3" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="countDownM">
+        <attr name="backColor" />
+        <attr name="countDownSeconds" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="BadgeButton">
+        <!-- 徽标文本，为空时显示一个小红点 -->
+        <attr name="btnBadgeText" format="string" />
+        <!-- 徽标高度，宽度自适应 -->
+        <attr name="btnBadgeHeight" format="dimension" />
+        <!-- 徽标背景色，文本白色 -->
+        <attr name="btnBadgeColor" format="color" />
+        <!-- 徽标是否可见 -->
+        <attr name="btnBadgeVisible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PraiseListView">
+        <attr name="item_color" format="color" />
+        <attr name="item_selector_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ExpandTextView">
+        <attr name="showLines" format="integer" />
+    </declare-styleable>
+</resources>
