@@ -220,6 +220,12 @@ public abstract class BaseFullActivity<P extends IPresenter> extends AppCompatAc
     }
 
     @Override
+    public Context requireContext()
+    {
+        return this;
+    }
+
+    @Override
     public void showError(String code, String messaege) {
         Toast.makeText(this, messaege, Toast.LENGTH_SHORT).show();
     }

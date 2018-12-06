@@ -1,5 +1,6 @@
 package com.yl.core.base.fragment;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -66,6 +67,7 @@ public abstract class BaseFragment<P extends IPresenter> extends Fragment implem
         view.requestFocus();
         view.requestFocusFromTouch();
     }
+
 
     @Override
     public P initPresenter() {

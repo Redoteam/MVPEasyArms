@@ -6,7 +6,7 @@ ext {
             "minSdkVersion"    : 16,
             "targetSdkVersion" : 28,
             "versionCode"      : 1,
-            "versionName"      : "1.0.1",
+            "versionName"      : "1.0.2",
             "phone-versionCode": 1,
             "phone-versionName": "1.0.1"
     ]

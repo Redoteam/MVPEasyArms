@@ -1,6 +1,7 @@
 package com.yl.core.base.activity;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -70,6 +71,12 @@ public abstract class BaseActivity<P extends IPresenter> extends AppCompatActivi
 
     @Override
     public Activity getActivity() {
+        return this;
+    }
+
+    @Override
+    public Context requireContext()
+    {
         return this;
     }
 
