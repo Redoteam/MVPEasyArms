@@ -1,6 +1,7 @@
 # MVPEasyArms
 [![](https://jitpack.io/v/Redoteam/MVPEasyArms.svg)](https://jitpack.io/#Redoteam/MVPEasyArms)
-#step 1
+
+# step 1
 
 	allprojects {
 		repositories {
@@ -9,7 +10,8 @@
 		}
 	}
   
-  #step 2
+  
+ # step 2
   
   	dependencies {
 	
