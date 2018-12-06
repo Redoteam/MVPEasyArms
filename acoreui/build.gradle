@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.yl.acoreui'
 android {
     compileSdkVersion rootProject.ext.android['compileSdkVersion']
 //    buildToolsVersion rootProject.ext.android['buildToolsVersion']
@@ -59,4 +60,5 @@ dependencies {
     api project(':acore')
     api project(':core-imageloader-glide')
     api project(':video')
+
 }
