@@ -1,6 +1,7 @@
 # MVPEasyArms
 [![](https://jitpack.io/v/Redoteam/MVPEasyArms.svg)](https://jitpack.io/#Redoteam/MVPEasyArms)
 #step 1
+
 	allprojects {
 		repositories {
 			...
@@ -9,6 +10,7 @@
 	}
   
   #step 2
+  
   	dependencies {
 	
 	        implementation 'com.github.Redoteam.MVPEasyArms:acore:v1.0.1'//基础框架
