@@ -5,6 +5,8 @@ buildscript {
     repositories {
         google()
         jcenter()
+
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.1'
@@ -20,6 +22,12 @@ buildscript {
         classpath 'com.jakewharton:butterknife-gradle-plugin:8.4.0'
 
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+        // 以下这段功能是用来上传至代码库，其他项目不用复制这段代码
+//        classpath 'com.novoda:bintray-release:0.9'//添加
+
+
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.6'
+
     }
 }
 
@@ -29,10 +37,26 @@ allprojects {
         jcenter()
         maven { url "https://jitpack.io" }
         maven { url 'http://developer.huawei.com/repo' }
+        maven { url 'https://dl.bintray.com/redtea/android' }
+
     }
+
+
+
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+tasks.withType(Javadoc) {
+    enabled = false
+    options {
+        encoding "UTF-8"
+        charSet 'UTF-8'
+        links "http://docs.oracle.com/javase/7/docs/api"
+    }
+    options.addStringOption('Xdoclint:none', '-quiet')
+}
+
+
 

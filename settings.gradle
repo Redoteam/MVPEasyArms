@@ -1,1 +1,1 @@
-include ':app', ':acore', ':core-imageloader-glide', ':video', ':acoreui'
+include ':app', ':acore', ':core-imageloader-glide', ':acoreui'

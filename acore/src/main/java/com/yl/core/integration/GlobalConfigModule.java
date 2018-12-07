@@ -90,7 +90,7 @@ public class GlobalConfigModule {
     }
 
     /**
-     * 提供 BaseUrl,默认使用 <"https://api.github.com/">
+     * 提供 BaseUrl,默认使用 "https://api.github.com/"
      *
      * @return
      */

@@ -60,6 +60,9 @@ dependencies {
     }*/
     api project(':acore')
     api project(':core-imageloader-glide')
-    api project(':video')
+//    api project(':video')
+    api rootProject.ext.dependencies["gsy-video-player-java"]
+    api rootProject.ext.dependencies["gsy-video-player-ex_so"]
+    api rootProject.ext.dependencies["gsy-video-player-exo2"]
 
 }
